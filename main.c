@@ -3,10 +3,12 @@
 
 int main()
 {
-    int prog;
+    int prog = 3;
     int operation;
-    int a,b,resultat;
+    int valeur1,valeur2,resultat;
 
+    while (prog > 2)
+    {
     printf("=== Menu ===\n\n");
     printf("1.Operation\n");
     printf("2.Fermer programme\n");
@@ -14,6 +16,7 @@ int main()
     printf("\n\n");
 
     scanf("%d", &prog);
+    }
 
     while (prog < 2)
     {
@@ -33,39 +36,39 @@ int main()
         {
     case 1:
         printf("Tu as choisi l'addition :\n");
-        printf("a= ");
-        scanf("%d", &a);
-        printf("b= ");
-        scanf("%d", &b);
-        resultat = a+b;
-        printf("%d + %d = %d\n", a, b, resultat);
+        printf("La valeur 1= ");
+        scanf("%d", &valeur1);
+        printf("La valeur 2= ");
+        scanf("%d", &valeur2);
+        resultat = valeur1+valeur2;
+        printf("%d + %d = %d\n", valeur1, valeur2, resultat);
         break;
     case 2:
         printf("Tu as choisi la soustraction :\n");
-        printf("a= ");
-        scanf("%d", &a);
-        printf("b= ");
-        scanf("%d", &b);
-        resultat = a-b;
-        printf("%d - %d = %d\n", a, b, resultat);
+        printf("La valeur 1= ");
+        scanf("%d", &valeur1);
+        printf("La valeur 2= ");
+        scanf("%d", &valeur2);
+        resultat = valeur1-valeur2;
+        printf("%d - %d = %d\n", valeur1, valeur2, resultat);
         break;
     case 3:
         printf("Tu as choisi la multiplication :\n");
-        printf("a= ");
-        scanf("%d", &a);
-        printf("b= ");
-        scanf("%d", &b);
-        resultat = a*b;
-        printf("%d x %d = %d\n", a, b, resultat);
+        printf("La valeur 1= ");
+        scanf("%d", &valeur1);
+        printf("La valeur 2= ");
+        scanf("%d", &valeur2);
+        resultat = valeur1*valeur2;
+        printf("%d x %d = %d\n", valeur1, valeur2, resultat);
         break;
     case 4:
         printf("Tu as choisi la division :\n");
-        printf("a= ");
-        scanf("%d", &a);
-        printf("b= ");
-        scanf("%d", &b);
-        resultat = a/b;
-        printf("%d / %d = %d\n", a, b, resultat);
+        printf("La valeur 1= ");
+        scanf("%d", &valeur1);
+        printf("La valeur 2= ");
+        scanf("%d", &valeur2);
+        resultat = valeur1/valeur2;
+        printf("%d / %d = %d\n", valeur1, valeur2, resultat);
         break;
         }
 
