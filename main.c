@@ -6,6 +6,12 @@ int main()
     int prog = 3;
     int operation;
     int valeur1,valeur2,resultat;
+    int name;
+
+    printf("User name :");
+    scanf("%d", &name);
+    printf("Bon... qui est le chieur suivant sur la liste... %d... meme son prénom est chiant", name);
+    scanf("%d", &prog);
 
     while (prog > 2)
     {
